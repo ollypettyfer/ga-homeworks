@@ -3,105 +3,166 @@
   <head>
     <meta charset="utf-8">
     <title>Coppa Club | Tower Bridge</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
   </head>
   <body>
-    <!-- header -->
-    About
-    Gallery
-    Menus
-    Sign Up
-    Book
-    Location
-    Join Us
+    <header>
+      <img src="/Users/oliverpettyfer/SEI/homeworks/ga-homeworks/html-coppa-club-start/images/hero.jpg" alt="The coppa club" class="hero">
+      <H1 class="coppa-club">Coppa Club</H1>
+      <nav>
+        <ul class="navigation">
+          <li class="navigation"><a href="#about">About</a></li>
+          <li class="navigation"><a href="#gallery">Gallery</a></li>
+          <li class="navigation"><a href="#menus">Menus</a></li>
+          <li class="navigation"><a href="#sign-up">Sign up</a></li>
+          <li class="navigation"><a href="#book-now">Book</a></li>
+          <li class="navigation"><a href="#location">Location</a></li>
+          <li class="navigation"><a href="#join-us">Join us</a></li>
+        </ul>
+      </nav>
+        </header>
 
     <!-- about -->
-    About
+    <main>
+      <div id="about">
+        <h2 class="about">About</h2>
+        <p>Coppa Club is a place for eating, drinking, meeting and unwinding. <br>
+          
+          <br> Built around a central, brass bar that’s open on all-sides, Coppa Club has a raised lounge for working and winding down, a 250-cover restaurant with a marble herringbone floor, and a café with booths and a fireplace. Outside, there’s a large, south-facing terrace that catches the sun all day. All our seating is designed to make the most of our view over the river. <br>
+          
+          <br> Our menu focuses on thoughtful, unfussy, European food from small plates and snacks to grilled mains, sourdough pizzas and healthy salads. There's a wide selection of breakfast and brunch dishes and the bar serves carefully-chosen wines, beers and classic cocktails as well as new creations. <br>
+          
+          <br> We are open from early morning until late at night, seven days a week. <br>
+          
+          <br> Drop in for breakfast and stay for dinner. No-one outstays their welcome. <br>
+          
+          <br> Coppa Club, 3 Three Quays Walk, Lower Thames Street, London, EC3R 6AH <br>
+          
+          <br> 020 7993 3827
+        </p>
+      </div>
+      <!-- gallery -->
+      <div id="gallery">
+        <img src="/Users/oliverpettyfer/SEI/homeworks/ga-homeworks/html-coppa-club-start/images/gallery-image-1.jpg" alt="Gallery" class="gallery">
+      </div>
+      <!-- menus -->
+      <div id="menus">
+        <h2>Menus</h2>
+        <p>We start early, with a breakfast menu including juices, pastries, pancakes, all kinds of eggs and freshly-roasted coffee. At 11.30am, we switch to our all-day menu.
+          
+          On weekends we serve brunch until 4pm.</p>
+          <ul class="menu-list">
+            <li><a href="https://assets.coppaclub.co.uk/wp-content/uploads/20210514153905/Coppa-Menu-ALC-250x375-Tower.pdf">Breakfast</a></li>
+              
+              <li><a href="https://assets.coppaclub.co.uk/wp-content/uploads/20210514153905/Coppa-Menu-ALC-250x375-Tower.pdf">All Day</a></li>
+                
+                <li><a href="https://assets.coppaclub.co.uk/wp-content/uploads/20210514153921/Non-Gluten-TB-CO.pdf">Brunch</a></li>
+                  
+                  <li><a href="https://assets.coppaclub.co.uk/wp-content/uploads/20210514153916/Coppa-SS-Tower-Cobham-pudding-menu-110x200-WEB-1.pdf">Pudding</a></li>
+                    
+                    <li><a href="https://assets.coppaclub.co.uk/wp-content/uploads/20210514153921/Non-Gluten-TB-CO.pdf">Weekend</a></li>
+          
+                      <li><a href="https://assets.coppaclub.co.uk/wp-content/uploads/20210331094336/Tower-Takeaway-WEB.pdf">Bar</a></li>
+                        
+                        <li><a href="https://assets.coppaclub.co.uk/wp-content/uploads/20201013133349/Kids_Coppa_Menu_Oct_2020.pdf">Kids</a></li>
+          </ul>
+        </div>
 
-    Coppa Club is a place for eating, drinking, meeting and unwinding.
+        <!-- newsletter -->
+        <div id="sign-up">
+          <h2>Sign up</h2>
+          <p>
+            If you would like regular updates on Coppa Club events and launches, sign up to our newsletter.</p>
+          <form action="sumbit">
+            <input type="email" name="newsletter" id="newsletter">
+            <input type="button" value="Send">
+          </form>
+        </div>        
+          
+          <!-- booking -->
+      <div id="book-now">
+        <h2>Book Now</h2>
+        <form action="submit">
+        <label for="Booking Type">Booking Type</label>
+          <select name="Booking" id="Booking">
+            <option value="Breakfast">Breakfast</option>
+            <option value="Lunch">Lucnh</option>
+            <option value="Dinner">Dinner</option>
+          </select> <br>
+          <label for="Number of people">Number of people</label>
+          <select name="people" id="people">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+          </select> <br>
+          <label for="date">Date</label>
+          <input type="date" name="date" id="date"> <br>
+          <label for="time">Time</label>
+          <input type="time" name="time" id="time"> <br>
+          <input type="number" name="until" id="until"> <br>
+          <button type="submit">Book Now</button>
+        </form>
+        <p>We’ve installed eight giant igloos on our terrace to make the most of our view over the river. The igloos are available to book throughout the day from breakfast through to dinner for up to a maximum of 8 people, all bookings under 6 people will be sharing with other guests. Bookings can be made online only and are available until 31st March. We still leave some igloos for walk-ins in case your requested day and time is already taken, so feel free to drop in and have a drink at the bar as you wait.</p>
+      </div>
+      
+      <!-- location -->
+      <span class="map"><img src="/Users/oliverpettyfer/SEI/homeworks/ga-homeworks/html-coppa-club-start/images/map.png" alt="map"></span>
+      <div id="location">
+        <h2>Location</h2>
+        <a href="https://goo.gl/maps/uRjjPDUKDkyg13io9" class="directions">Directions</a>
+        
+        <p>Coppa Club, 3 Three Quays Walk,
+          Lower Thames Street, London, EC3R 6AH <br>
+          
+          <br> Monday to Thursday 7.30am – 11pm
+          Friday 7.30am – 12am
+          Saturday 9am – 12am
+          Sunday 9am – 10.30pm
+          Food served
+          Monday to Saturday until 11pm
+          Sunday until 10pm <br>
+          
+          <br> 020 7993 3827
+          towerbridge@coppaclub.co.uk</p>
+      </div> 
 
-    Built around a central, brass bar that’s open on all-sides, Coppa Club has a raised lounge for working and winding down, a 250-cover restaurant with a marble herringbone floor, and a café with booths and a fireplace. Outside, there’s a large, south-facing terrace that catches the sun all day. All our seating is designed to make the most of our view over the river.
+      <!-- join -->
+      <span id="join-us">
+        <h2>Join us</h2>
+        <p>Like what we do? Come and work for us…
+          We're looking for bright, motivated people to join our team.
+          
+          recruitment@coppaclub.co.uk</p> 
+        <img src="/Users/oliverpettyfer/SEI/homeworks/ga-homeworks/html-coppa-club-start/images/barman.jpg" alt="Barman">    
+        <img src="/Users/oliverpettyfer/SEI/homeworks/ga-homeworks/html-coppa-club-start/images/cocktail.jpg" alt="Cocktails">
+        <img src="/Users/oliverpettyfer/SEI/homeworks/ga-homeworks/html-coppa-club-start/images/chef.jpg" alt="Chef">    
+      </span>
+      
+      <!-- social -->
+      <span class="follow">
+        <p>Follow us on...</p> 
+        <img src="/Users/oliverpettyfer/SEI/homeworks/ga-homeworks/html-coppa-club-start/images/instagram.png" alt="Instagram">
+        <img src="/Users/oliverpettyfer/SEI/homeworks/ga-homeworks/html-coppa-club-start/images/twitter.png" alt="Twitter">
+        <img src="/Users/oliverpettyfer/SEI/homeworks/ga-homeworks/html-coppa-club-start/images/facebook.png" alt="Facebook">
+      </span> <br>
 
-    Our menu focuses on thoughtful, unfussy, European food from small plates and snacks to grilled mains, sourdough pizzas and healthy salads. There's a wide selection of breakfast and brunch dishes and the bar serves carefully-chosen wines, beers and classic cocktails as well as new creations.
-
-    We are open from early morning until late at night, seven days a week.
-
-    Drop in for breakfast and stay for dinner. No-one outstays their welcome.
-
-    Coppa Club, 3 Three Quays Walk, Lower Thames Street, London, EC3R 6AH
-
-    020 7993 3827
-
-    <!-- gallery -->
-
-    <!-- menus -->
-    Menus
-
-    We start early, with a breakfast menu including juices, pastries, pancakes, all kinds of eggs and freshly-roasted coffee. At 11.30am, we switch to our all-day menu.
-
-    On weekends we serve brunch until 4pm.
-
-    Breakfast
-    Brunch
-    All Day
-    Weekend
-    Pudding
-    Kids
-    Bar
-
-    <!-- newsletter -->
-    Sign up
-
-    If you would like regular updates on Coppa Club events and launches, sign up to our newsletter.
-
-    <!-- booking -->
-    Book Now
-
-    Booking Type
-    Number of people
-    Date
-    Time
-    Until
-    Book now
-
-    We’ve installed eight giant igloos on our terrace to make the most of our view over the river. The igloos are available to book throughout the day from breakfast through to dinner for up to a maximum of 8 people, all bookings under 6 people will be sharing with other guests. Bookings can be made online only and are available until 31st March. We still leave some igloos for walk-ins in case your requested day and time is already taken, so feel free to drop in and have a drink at the bar as you wait.
-
-    <!-- location -->
-    Location
-
-    Directions
-    Coppa Club, 3 Three Quays Walk,
-    Lower Thames Street, London, EC3R 6AH
-
-    Monday to Thursday 7.30am – 11pm
-    Friday 7.30am – 12am
-    Saturday 9am – 12am
-    Sunday 9am – 10.30pm
-    Food served
-    Monday to Saturday until 11pm
-    Sunday until 10pm
-
-    020 7993 3827
-    towerbridge@coppaclub.co.uk
-
-    <!-- join -->
-    Join us
-
-    Like what we do? Come and work for us…
-    We're looking for bright, motivated people to join our team.
-
-    recruitment@coppaclub.co.uk
-
-    <!-- social -->
-    Follow us on...
-
-    <!-- footer -->
-    020 7993 3827
-    towerbridge@coppaclub.co.uk
-
-    Coppa Club, 3 Three Quays Walk,
-    Lower Thames Street, London, EC3R 6AH
-
-    &copy; 2017 CoppaClub
-    All Rights Reserved
+        
+    </main>
+      <!-- footer -->
+      <footer>
+        <br><span class="contact">
+          <p class="footer-left">020 7993 3827
+            towerbridge@coppaclub.co.uk</p>
+            <p class="footer-center">Coppa Club, 3 Three Quays Walk,
+              Lower Thames Street, London, EC3R 6AH</p>
+            <p class="footer-right">&copy; 2017 CoppaClub
+            All Rights Reserved</p>
+        </span>
+      </footer>
   </body>
 </html>

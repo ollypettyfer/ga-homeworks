@@ -1,0 +1,82 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+ul {
+    list-style-type: none;
+}
+ul.no-bullets {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+  }
+  .directions {
+      border: white;
+  }
+  #location {
+      background-color: teal;
+      text-align: right;
+      color: wheat;
+  }
+  #book-now {
+      text-align: center;
+  }
+  #about {
+      text-align: center;
+      color: teal;
+  }
+  #menus {
+      text-align: center;
+      color: teal;
+  }
+  .menu-list {
+      color: teal;
+  }
+  #sign-up {
+      text-align: center;
+      background-color: teal;
+      color: wheat;
+  }
+  .footer-left {
+      text-align: left;
+  }
+  .footer-center {
+      text-align: center;
+  }
+  .footer-right {
+      text-align: right;
+  }
+  .gallery {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+  }
+  .coppa-club {
+      color: wheat;
+      text-align: center;
+  }
+  .hero {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  .navigation {
+      list-style: none;
+      display: inline;
+      text-align: center;
+  }
+  #join-us {
+      color: teal;
+      text-align: center;
+  }
+  .follow {
+      color: teal;
+      text-align: center;
+  }
+  .contact {
+      color: wheat;
+  }
+  #book-now p {
+      color: teal;
+  }
