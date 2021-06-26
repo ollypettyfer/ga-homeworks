@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-image {
+    height: 40px;
+}
+
+.navi li { 
+    display: inline;
+    list-style: none;
+    padding: 25px;
+    font-weight: bold;
+}
+
+.melbourne-bridge {
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    align-items: center;
+    width: 100%;
+}
+
+.find-neighbourhood {
+    align-items: center;
+    text-align: center;
+    background-color: red;
+    border-radius: 3px;
+
+    color: white;
+    padding: 10px;
+    margin: 3%
+
+}
+
+.content {
+    text-align: center;
+
+}
+
+.review {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    background-color: lightgrey;
+}
+
+.review-body {
+    display: flex;
+    align-items: flex-start;   
+}
+
+.featured-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+    padding: 10px;
+}
+
+.featured {
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.featured-container {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+.list {
+    list-style: none;
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    justify-content: space-around;
+    background-color: lightgrey;
+    
+}
+
+.button { 
+    align-items: center;
+    text-align: center;
+    background-color: red;
+    border-radius: 3px;
+
+    color: white;
+    padding: 10px;
+    margin: 3%
+}
+
+footer {
+    background-color: grey;
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/*
+google font: Nunito
+
+brand red: #ff5358
+dark red: #e00007
+background grey: #efefef
+title grey: #edefed
+footer grey: #2B2D2E
+*/
