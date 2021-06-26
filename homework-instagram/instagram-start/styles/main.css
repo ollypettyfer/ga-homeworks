@@ -1,0 +1,91 @@
+/*background color = #fafafa*/
+/*button blue = #3897f0*/
+/*border color = #e6e6e6*/
+/*footer link color = #003569*/
+/*text grey color = #999*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  background-color: #fafafa;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.left-side {
+  margin: 40px;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 10px;
+}
+
+.main-content {
+  border: solid grey 1px;
+  color: grey;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  text-align: center;
+  padding: 30px;
+  font-weight: bold;
+  background-color: white;
+}
+
+.log-facebook {
+  background-color: #458eff;
+  color: white;
+  padding: 53px;
+}
+
+.form {
+  color: grey;
+  padding: 10px;
+  width: 220px;
+}
+
+.sign-up {
+  background-color: #458eff;
+  color: white;
+  padding: 87px;
+}
+
+.account {
+  display: flex;
+  flex-direction: column;
+  border: solid grey 1px;
+  width: 300px;
+  margin: 10px 0;
+  font-weight: bold;
+  text-align: center;
+  background-color: white;
+}
+
+.apps {
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  color: navy;
+}
+
+.copyright {
+  color: grey;
+}
+
+/*# sourceMappingURL=main.css.map */
